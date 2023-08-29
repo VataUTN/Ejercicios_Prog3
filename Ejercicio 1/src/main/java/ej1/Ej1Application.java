@@ -21,7 +21,6 @@ public class Ej1Application {
     @Bean
     CommandLineRunner init(RepositorioPersona rPersona) {
         return args -> {
-            System.out.println("-----------------ESTOY FUNCIONANDO---------");
             Persona persona2 = new Persona();
             persona2.setNombre("Juan");
             persona2.setApellido("Pérez");
