@@ -23,9 +23,9 @@ public class Ej2Application {
     CommandLineRunner init(RepositorioPersona rPersona) {
         return args -> {
             Persona persona = new Persona();
-            persona.setNombre("Juan");
-            persona.setApellido("Pérez");
-            persona.setEdad(30);
+            persona.setNombre("Elizabeth");
+            persona.setApellido("Delacroix");
+            persona.setEdad(22);
 
             rPersona.save(persona);
 
