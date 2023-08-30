@@ -22,9 +22,9 @@ public class Ej1Application {
     CommandLineRunner init(RepositorioPersona rPersona) {
         return args -> {
             Persona persona2 = new Persona();
-            persona2.setNombre("Juan");
-            persona2.setApellido("Pérez");
-            persona2.setEdad(30);
+            persona2.setNombre("Charlotte");
+            persona2.setApellido("Vanderbilt");
+            persona2.setEdad(16);
 
             // Guardar el objeto Persona en la base de datos
             rPersona.save(persona2);
