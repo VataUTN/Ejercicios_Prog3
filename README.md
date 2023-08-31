@@ -1,4 +1,4 @@
-Ejercicios de Programación 3
+# Ejercicios de Programación 3
 
 Este repositorio contiene dos ejercicios relacionados con el uso de Spring Boot y bases de datos. A continuación, se proporciona una breve descripción de cada ejercicio y cómo ejecutarlos.
 
